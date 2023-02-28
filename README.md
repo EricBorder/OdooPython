@@ -17,6 +17,6 @@ Hemos mapeado los puertos del odoo -> ``` 8069:8069```
 Una vez creado el documento, pasaremos a ejecutarlo con el comando ```docker-compose up```. Una vez realizado dicho comando, tendremos nuestro odoo y nuestra base de datos postgres, listos y operativos para trabajar con ellos.
 
 <h3>Configuración</h3>
-Una vez creado el ```docker-compose.yml``` y con el odoo y la base de datos operativos, nos hemos conectado en el navegador como ``localhost``  al puerto ```8069``` y hemos configurado de inicio el Odoo, añadiendo y creando una nueva base de datos postgres, configurando usuario y contraseña. Además de la master password.
+Una vez creado el `docker-compose.yml` y con el odoo y la base de datos operativos, nos hemos conectado en el navegador como `localhost`  al puerto `8069` y hemos configurado de inicio el Odoo, añadiendo y creando una nueva base de datos postgres, configurando usuario y contraseña. Además de la master password.
 
 Despues de haber hecho la configuración y tener nuestro Odoo funcionando, hemos enlazado la base de datos postgres dentro de nuestro proyecto en Pycharm, donde tendremos acceso a todas las tablas, esquemas, usuarios y demás contenido de nuestro Odoo.
